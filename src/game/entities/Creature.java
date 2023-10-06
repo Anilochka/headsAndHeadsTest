@@ -106,7 +106,7 @@ public abstract class Creature {
     }
 
     private void heal() {
-        health = (int) Math.min( health + maxHealth * HEALING_FACTOR, maxHealth);
+        health = (int) Math.min(health + maxHealth * HEALING_FACTOR, maxHealth);
         healingCount--;
     }
 }
